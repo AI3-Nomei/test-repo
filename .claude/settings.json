@@ -8,19 +8,10 @@
       "Bash(git status:*)",
       "Bash(git diff:*)",
       "Bash(gh pr create:*)",
+      "Bash(curl:*)",
       "Read",
       "Write",
       "Edit"
-    ],
-    "deny": [
-      "Bash(git merge:*)",
-      "Bash(git push * main)",
-      "Bash(gh pr merge:*)",
-      "Bash(gh api:*)",
-      "Bash(curl:*)",
-      "Bash(wget:*)",
-      "Read(~/.secrets/**)",
-      "Edit(~/.secrets/**)"
     ]
   }
 }

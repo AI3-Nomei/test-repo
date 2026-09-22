@@ -2,7 +2,7 @@
 
 This is a throwaway test repository for the AI3 Partners Hermes / Paperclip environment.
 
-- Work only on the task you were started from. One issue, one branch named after the issue (for AIP-12, `aip-12-short-title`), one pull request. Commit on the branch and stop: never push, never run `gh`, never touch `main`. The pull request is opened for you after your run ends and its link is posted on the task.
+- Work only on the task you were started from. One issue, one branch, one pull request. The branch is created for you before you start, named after the issue (for AIP-12, `aip-12-short-title`), and you are already on it: commit on it and stop; do not create, switch, rename or delete branches. Then: never push, never run `gh`, never touch `main`. The pull request is opened for you after your run ends and its link is posted on the task.
 - Keep a pull request to one reviewable change, well under 400 changed lines.
 - Scratch files and notes to yourself go in `$PAPERCLIP_TASK_SCRATCH_DIR`, never into this working tree.
 - Use curl for the Paperclip API from the shell, not Python: Python cannot resolve names inside the sandbox.
